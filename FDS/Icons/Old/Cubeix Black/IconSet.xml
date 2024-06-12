@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<IconSet Version="1.0.0.0">
+  <Info>
+    <name>Cubeix Black</name>
+    <author>The SharpEnviro Team</author>
+    <website>http://www.sharpenviro.com/</website>
+    <Info></Info>
+    <version>0.8</version>
+  </Info>
+  <Icons>
+    <Icon>
+      <name>icon.application</name>
+      <file>SharpE.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.clock</name>
+      <file>Clock.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.drive.floppy</name>
+      <file>drive floppy.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.drive.cdrom</name>
+      <file>drive cd.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.drive.hd</name>
+      <file>drive.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.drive.networkon</name>
+      <file>Drive Net on.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.drive.networkoff</name>
+      <file>Drive Net off.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.file</name>
+      <file>File sharpe.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.file.config</name>
+      <file>File config.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.file.document</name>
+      <file>File doc.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.file.documents</name>
+      <file>Folder documents.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.file.music</name>
+      <file>File music.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.file.url</name>
+      <file>File url.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.folder</name>
+      <file>Folder empty.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.folder.documents</name>
+      <file>Folder documents.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.folder.movies</name>
+      <file>Folder movies.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.folder.pictures</name>
+      <file>Folder pictures.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.folder.sound</name>
+      <file>Folder music.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.folder.web</name>
+      <file>Folder Net.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.mail</name>
+      <file>Mail.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.mycomputer</name>
+      <file>My computer.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.network</name>
+      <file>Network.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.printer</name>
+      <file>printer.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.recyclebin.empty</name>
+      <file>Trash empty.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.recyclebin.full</name>
+      <file>Trash full.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.settings</name>
+      <file>File config.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.controlpanel</name>
+      <file>Control panel.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.config</name>
+      <file>SharpE panel.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.file.movie</name>
+      <file>file music.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.file.picture</name>
+      <file>file photo.ico</file>
+    </Icon>
+    <Icon>
+      <name>icon.file.application</name>
+      <file>file doc.ico</file>
+    </Icon>
+  </Icons>
+</IconSet>

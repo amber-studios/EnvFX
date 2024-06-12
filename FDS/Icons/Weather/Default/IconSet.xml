@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<IconSet Version="1.0.0.0">
+  <Info>
+    <name>Default</name>
+    <author>Weather.com</author>
+    <website>http://www.weather.com/</website>
+    <Info>Default weather icons</Info>
+    <version>0.8</version>
+  </Info>
+  <IconSizes>
+    <IconSize Size="128" />
+	<IconSize Size="64" />
+	<IconSize Size="32" />
+	<IconSize Size="16" />
+  </IconSizes>
+</IconSet>

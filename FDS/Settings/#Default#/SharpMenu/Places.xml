@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<SharpEMenuFile>
+  <item>
+    <type>link</type>
+    <Caption>Documents</Caption>
+    <Target>shell:Personal</Target>
+    <Icon>icon.folder.documents</Icon>
+  </item>
+  <item>
+    <type>link</type>
+    <Caption>Computer</Caption>
+    <Target>shell:MyComputerFolder</Target>
+    <Icon>icon.system.computer</Icon>
+  </item>
+  <item>
+    <type>link</type>
+    <Caption>Control Panel</Caption>
+    <Target>shell:ControlPanel</Target>
+    <Icon>icon.system.settings</Icon>
+  </item>
+  <item>
+    <type>separator</type>
+  </item>
+  <item>
+    <type>link</type>
+    <Caption>User Settings Directory</Caption>
+    <Target>sharpe:usersettings</Target>
+    <Icon>icon.folder.documents</Icon>
+  </item>
+  <item>
+    <type>link</type>
+    <Caption>Global Settings Directory</Caption>
+    <Target>sharpe:globalsettings</Target>
+    <Icon>icon.system.settings</Icon>
+  </item>
+  <item>
+    <type>link</type>
+    <Caption>SharpE Directory</Caption>
+    <Target>sharpe:directory</Target>
+    <Icon>icon.folder</Icon>
+  </item>
+</SharpEMenuFile>

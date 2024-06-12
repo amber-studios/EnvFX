@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<SharpDeskObjectSet>
+  <Item>
+    <ID>5236359</ID>
+    <Object>Link</Object>
+    <PosX>88</PosX>
+    <PosY>108</PosY>
+    <Locked>-1</Locked>
+    <isWindow>0</isWindow>
+  </Item>
+  <Item>
+    <ID>1485347</ID>
+    <Object>Link</Object>
+    <PosX>88</PosX>
+    <PosY>216</PosY>
+    <Locked>-1</Locked>
+    <isWindow>0</isWindow>
+  </Item>
+  <Item>
+    <ID>2654167</ID>
+    <Object>RecycleBin</Object>
+    <PosX>88</PosX>
+    <PosY>440</PosY>
+    <Locked>-1</Locked>
+    <isWindow>0</isWindow>
+  </Item>
+  <Item>
+    <ID>1934269</ID>
+    <Object>Link</Object>
+    <PosX>88</PosX>
+    <PosY>320</PosY>
+    <Locked>-1</Locked>
+    <isWindow>0</isWindow>
+  </Item>
+  <Item>
+    <ID>6494357</ID>
+    <Object>Link</Object>
+    <PosX>88</PosX>
+    <PosY>544</PosY>
+    <Locked>0</Locked>
+    <isWindow>0</isWindow>
+  </Item>
+</SharpDeskObjectSet>

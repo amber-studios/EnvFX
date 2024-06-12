@@ -1,0 +1,86 @@
+package SharpESkinComponents;
+
+{$R *.res}
+{$R '..\..\Delphi Components\SharpE Skin Components\SharpEButton.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'SharpE Skin Components'}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  designide,
+  xmlrtl,
+  vcl,
+  Jcl,
+  JclVcl,
+  PNG_D9,
+  JvSystemD11R,
+  JvCoreD11R,
+  JvInterpreterD11R,
+  GR32_RS2007;
+
+contains
+  sharedBitmapList in '..\..\Delphi Components\SharpE Skin Components\sharedBitmapList.pas',
+  SharpEBar in '..\..\Delphi Components\SharpE Skin Components\SharpEBar.pas',
+  SharpEBase in '..\..\Delphi Components\SharpE Skin Components\SharpEBase.pas',
+  SharpEBaseControls in '..\..\Delphi Components\SharpE Skin Components\SharpEBaseControls.pas',
+  SharpEBitmapList in '..\..\Delphi Components\SharpE Skin Components\SharpEBitmapList.pas',
+  SharpEButton in '..\..\Delphi Components\SharpE Skin Components\SharpEButton.pas',
+  SharpECustomSkinSettings in '..\..\Delphi Components\SharpE Skin Components\SharpECustomSkinSettings.pas',
+  SharpEDefault in '..\..\Delphi Components\SharpE Skin Components\SharpEDefault.pas',
+  SharpEDesignTime in '..\..\Delphi Components\SharpE Skin Components\SharpEDesignTime.pas',
+  SharpEEdit in '..\..\Delphi Components\SharpE Skin Components\SharpEEdit.pas',
+  SharpEListBox in '..\..\Delphi Components\SharpE Skin Components\SharpEListBox.pas',
+  SharpEMiniThrobber in '..\..\Delphi Components\SharpE Skin Components\SharpEMiniThrobber.pas',
+  SharpEProgressBar in '..\..\Delphi Components\SharpE Skin Components\SharpEProgressBar.pas',
+  SharpEScheme in '..\..\Delphi Components\SharpE Skin Components\SharpEScheme.pas',
+  SharpESkin in '..\..\Delphi Components\SharpE Skin Components\SharpESkin.pas',
+  SharpESkinLabel in '..\..\Delphi Components\SharpE Skin Components\SharpESkinLabel.pas',
+  SharpESkinManager in '..\..\Delphi Components\SharpE Skin Components\SharpESkinManager.pas',
+  SharpESkinPart in '..\..\Delphi Components\SharpE Skin Components\SharpESkinPart.pas',
+  SharpETaskItem in '..\..\Delphi Components\SharpE Skin Components\SharpETaskItem.pas',
+  ShlIntf in '..\..\Delphi Components\SharpE Skin Components\ShlIntf.pas',
+  StrConst in '..\..\Delphi Components\SharpE Skin Components\StrConst.pas',
+  StrTools in '..\..\Delphi Components\SharpE Skin Components\StrTools.pas',
+  TranComp in '..\..\3rd party\TransparentEdit\TranComp.pas',
+  SharpGraphicsUtils in '..\..\Units\SharpGraphicsUtils\SharpGraphicsUtils.pas',
+  SharpAPI in '..\..\Libraries\SharpAPI\SharpAPI.pas',
+  SharpThemeApiEx in '..\..\Libraries\SharpThemeApiEx\SharpThemeApiEx.pas',
+  GR32_PNG in '..\..\3rd party\GR32 Addons\GR32_PNG.pas',
+  SystemFontList in '..\..\Delphi Components\SharpE Skin Components\SystemFontList.pas',
+  uSharpXMLUtils in '..\..\Units\XML\uSharpXMLUtils.pas',
+  SharpSharedFileAccess in '..\..\Units\SharpFileUtils\SharpSharedFileAccess.pas',
+  ISharpESkinComponents in '..\..\Interfaces\ISharpESkinComponents.pas',
+  SharpTypes in '..\..\Units\SharpTypes\SharpTypes.pas',
+  uIThemeInfo in '..\..\Libraries\SharpThemeApiEx\uIThemeInfo.pas',
+  uIThemeSkin in '..\..\Libraries\SharpThemeApiEx\uIThemeSkin.pas',
+  uIThemeScheme in '..\..\Libraries\SharpThemeApiEx\uIThemeScheme.pas',
+  uIThemeDesktop in '..\..\Libraries\SharpThemeApiEx\uIThemeDesktop.pas',
+  uIThemeIcons in '..\..\Libraries\SharpThemeApiEx\uIThemeIcons.pas',
+  uIThemeWallpaper in '..\..\Libraries\SharpThemeApiEx\uIThemeWallpaper.pas',
+  uISharpETheme in '..\..\Libraries\SharpThemeApiEx\uISharpETheme.pas',
+  uThemeConsts in '..\..\Libraries\SharpThemeApiEx\uThemeConsts.pas',
+  uIThemeList in '..\..\Libraries\SharpThemeApiEx\uIThemeList.pas',
+  MonitorList in '..\..\Units\MonitorList\MonitorList.pas';
+
+end.

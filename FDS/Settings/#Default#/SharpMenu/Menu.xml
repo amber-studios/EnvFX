@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<SharpEMenuFile>
+  <item>
+    <type>label</type>
+    <Caption>SharpE Menu</Caption>
+  </item>
+  <item>
+    <type>separator</type>
+  </item>
+  <item>
+    <type>link</type>
+    <Caption>Computer</Caption>
+    <Target>shell:drivefolder</Target>
+    <Icon>icon.system.computer</Icon>
+  </item>
+  <item>
+    <type>link</type>
+    <Caption>Control Panel</Caption>
+    <Target>shell:ControlPanelFolder</Target>
+    <Icon>icon.category.settings</Icon>
+  </item>
+  <item>
+    <type>separator</type>
+  </item>
+  <item>
+    <type>link</type>
+    <Caption>Documents</Caption>
+    <Target>shell:Personal</Target>
+    <Icon>icon.folder.documents</Icon>
+  </item>
+  <item>
+    <type>submenu</type>
+    <Caption>Startmenu</Caption>
+    <Target/>
+    <Icon>icon.folder</Icon>
+    <Items>
+      <item>
+        <type>dynamicdirectory</type>
+        <Target>{#StartMenuDir#}</Target>
+        <MaxItems>-1</MaxItems>
+        <Sort>0</Sort>
+        <Filter/>
+        <Recursive>0</Recursive>
+      </item>
+      <item>
+        <type>dynamicdirectory</type>
+        <Target>{#CommonStartMenuDir#}</Target>
+        <MaxItems>-1</MaxItems>
+        <Sort>0</Sort>
+        <Filter/>
+        <Recursive>0</Recursive>
+      </item>
+    </Items>
+  </item>
+  <item>
+    <type>submenu</type>
+    <Caption>Quick Launch</Caption>
+    <Target/>
+    <Icon>icon.folder</Icon>
+    <Items>
+      <item>
+        <type>dynamicdirectory</type>
+        <Target>{#AppDataDir#}Microsoft\Internet Explorer\Quick Launch\</Target>
+        <MaxItems>-1</MaxItems>
+        <Sort>0</Sort>
+        <Filter/>
+        <Recursive>0</Recursive>
+      </item>
+    </Items>
+  </item>
+  <item>
+    <type>separator</type>
+  </item>
+  <item>
+    <type>link</type>
+    <Caption>Run...</Caption>
+    <Target>!RunDlg</Target>
+    <Icon>icon.system.command</Icon>
+  </item>
+  <item>
+    <type>separator</type>
+  </item>
+  <item>
+    <type>submenu</type>
+    <Caption>SharpE</Caption>
+    <Target/>
+    <Icon>icon.category.properties</Icon>
+    <Items>
+      <item>
+        <type>link</type>
+        <Caption>Root Directory</Caption>
+        <Target>{#SHARPEDIR#}</Target>
+        <Icon>icon.folder</Icon>
+      </item>
+      <item>
+        <type>link</type>
+        <Caption>User Settings Directory</Caption>
+        <Target>{#SharpEUserSettingsDir#}</Target>
+        <Icon>icon.folder.documents</Icon>
+      </item>
+      <item>
+        <type>separator</type>
+      </item>
+      <item>
+        <type>link</type>
+        <Caption>Debug Console</Caption>
+        <Target>&quot;{#SHARPEDIR#}SharpConsole.exe&quot;</Target>
+        <Icon>icon.file</Icon>
+      </item>
+      <item>
+        <type>link</type>
+        <Caption>Shell Manager (Admin)</Caption>
+        <Target>{#SHARPEDIR#}SetShell.exe</Target>
+        <Icon>icon.file</Icon>
+      </item>
+      <item>
+        <type>separator</type>
+      </item>
+      <item>
+        <type>link</type>
+        <Caption>Official Website</Caption>
+        <Target>http://www.sharpenviro.com</Target>
+        <Icon>icon.file.web</Icon>
+      </item>
+    </Items>
+  </item>
+  <item>
+    <type>submenu</type>
+    <Caption>Configuration</Caption>
+    <Target/>
+    <Icon>icon.system.settings</Icon>
+    <Items>
+      <item>
+        <type>link</type>
+        <Caption>SharpCenter</Caption>
+        <Target>&quot;{#SHARPEDIR#}SharpCenter.exe&quot;</Target>
+        <Icon>icon.category.settings</Icon>
+      </item>
+      <item>
+        <type>separator</type>
+      </item>
+      <item>
+        <type>submenu</type>
+        <Caption>Add Desktop Object</Caption>
+        <Target/>
+        <Icon>icon.system.desktop</Icon>
+        <Items>
+          <item>
+            <type>objectlist</type>
+          </item>
+        </Items>
+      </item>
+      <item>
+        <type>link</type>
+        <Caption>Desktop Settings</Caption>
+        <Target>&quot;{#SHARPEDIR#}SharpCenter.exe&quot; -api &quot;0|Home|Desktop&quot;</Target>
+        <Icon>icon.file.other</Icon>
+      </item>
+      <item>
+        <type>link</type>
+        <Caption>Services</Caption>
+        <Target>&quot;{#SHARPEDIR#}SharpCenter.exe&quot; -api &quot;0|Home|Services&quot;</Target>
+        <Icon>icon.file.other</Icon>
+      </item>
+      <item>
+        <type>link</type>
+        <Caption>Themes</Caption>
+        <Target>&quot;{#SHARPEDIR#}SharpCenter.exe&quot; -api &quot;0|Home|Themes&quot;</Target>
+        <Icon>icon.file.other</Icon>
+      </item>
+      <item>
+        <type>link</type>
+        <Caption>Toolbars</Caption>
+        <Target>&quot;{#SHARPEDIR#}SharpCenter.exe&quot; -api &quot;0|Home|Toolbars&quot;</Target>
+        <Icon>icon.file.other</Icon>
+      </item>
+    </Items>
+  </item>
+</SharpEMenuFile>

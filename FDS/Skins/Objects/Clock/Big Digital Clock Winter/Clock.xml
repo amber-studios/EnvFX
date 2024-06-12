@@ -1,0 +1,39 @@
+<ClockSkins>
+	<!-- Digial Clock //-->
+	<ClockSkin>
+		<Info>
+			<Name>Big Digital Clock Winter</Name>
+			<Author>Sertion</Author>
+			<Website>http://sertion.deviantart.com/</Website>
+			<Category>Digital</Category>
+			<Filter>Big</Filter>
+		</Info>
+		<Text>
+			<Caption>{hh}.{nn}</Caption>
+			<FontSize>80</FontSize>
+			<FontColor>RGB(52,53,58)</FontColor>
+			<FontAlpha>255</FontAlpha>
+			<ClearType>1</ClearType>
+			<X>0</X>
+			<Y>50</Y>
+		</Text>
+		<Text>
+			<Caption>:{ss}</Caption>
+			<FontSize>40</FontSize>
+			<FontColor>RGB(150,150,150)</FontColor>
+			<FontAlpha>255</FontAlpha>
+			<ClearType>1</ClearType>
+			<X>280</X>
+			<Y>100</Y>
+		</Text>
+		<Text>
+			<Caption>{dddd}</Caption>
+			<FontSize>40</FontSize>
+			<FontColor>RGB(150,150,150)</FontColor>
+			<FontAlpha>255</FontAlpha>
+			<ClearType>1</ClearType>
+			<X>15</X>
+			<Y>150</Y>
+		</Text>
+	</ClockSkin>
+</ClockSkins>

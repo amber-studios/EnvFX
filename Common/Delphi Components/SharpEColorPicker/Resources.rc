@@ -1,0 +1,5 @@
+// ----------------------------------------------------------------------------
+// List all the Bitmaps etc. to build into RES
+// ----------------------------------------------------------------------------
+PIPETTE_PNG RCDATA "RC\color_swatch.png"
+PIPETTESEL_PNG RCDATA "RC\color_swatch.png"

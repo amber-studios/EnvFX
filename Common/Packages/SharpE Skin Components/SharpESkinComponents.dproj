@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{621fd4e9-07f3-4b60-918e-938caeac72c6}</ProjectGuid>
+    <MainSource>SharpESkinComponents.dpk</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>C:\Users\Public\Documents\RAD Studio\5.0\Bpl\SharpESkinComponents.bpl</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_UnitSearchPath>..\..\Libraries\SharpAPI;..\..\Libraries\SharpThemeAPIEx;..\..\3rd party\GR32 Addons;..\..\3rd party\TransparentEdit;..\..\..\Common\Units\SharpGraphicsUtils;..\..\Libraries\SharpCenterAPI;..\..\..\Common\Units\SharpTypes;..\..\..\Common\Units\MonitorList;..\..\..\Common\Interfaces;..\..\..\Common\Units\SharpFileUtils;..\..\..\Common\Units\XML</DCC_UnitSearchPath>
+    <DCC_ResourcePath>..\..\Libraries\SharpAPI;..\..\Libraries\SharpThemeAPIEx;..\..\3rd party\GR32 Addons;..\..\3rd party\TransparentEdit;..\..\..\Common\Units\SharpGraphicsUtils;..\..\Libraries\SharpCenterAPI;..\..\..\Common\Units\SharpTypes;..\..\..\Common\Units\MonitorList;..\..\..\Common\Interfaces;..\..\..\Common\Units\SharpFileUtils;..\..\..\Common\Units\XML</DCC_ResourcePath>
+    <DCC_ObjPath>..\..\Libraries\SharpAPI;..\..\Libraries\SharpThemeAPIEx;..\..\3rd party\GR32 Addons;..\..\3rd party\TransparentEdit;..\..\..\Common\Units\SharpGraphicsUtils;..\..\Libraries\SharpCenterAPI;..\..\..\Common\Units\SharpTypes;..\..\..\Common\Units\MonitorList;..\..\..\Common\Interfaces;..\..\..\Common\Units\SharpFileUtils;..\..\..\Common\Units\XML</DCC_ObjPath>
+    <DCC_IncludePath>..\..\Libraries\SharpAPI;..\..\Libraries\SharpThemeAPIEx;..\..\3rd party\GR32 Addons;..\..\3rd party\TransparentEdit;..\..\..\Common\Units\SharpGraphicsUtils;..\..\Libraries\SharpCenterAPI;..\..\..\Common\Units\SharpTypes;..\..\..\Common\Units\MonitorList;..\..\..\Common\Interfaces;..\..\..\Common\Units\SharpFileUtils;..\..\..\Common\Units\XML</DCC_IncludePath>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_UnitSearchPath>..\..\Libraries\SharpAPI;..\..\Libraries\SharpThemeAPIEx;..\..\3rd party\GR32 Addons;..\..\3rd party\TransparentEdit;..\..\..\Common\Units\SharpGraphicsUtils;..\..\Libraries\SharpCenterAPI;..\..\..\Common\Units\SharpTypes;..\..\..\Common\Units\MonitorList;..\..\..\Common\Interfaces;..\..\..\Common\Units\SharpFileUtils;..\..\..\Common\Units\XML</DCC_UnitSearchPath>
+    <DCC_ResourcePath>..\..\Libraries\SharpAPI;..\..\Libraries\SharpThemeAPIEx;..\..\3rd party\GR32 Addons;..\..\3rd party\TransparentEdit;..\..\..\Common\Units\SharpGraphicsUtils;..\..\Libraries\SharpCenterAPI;..\..\..\Common\Units\SharpTypes;..\..\..\Common\Units\MonitorList;..\..\..\Common\Interfaces;..\..\..\Common\Units\SharpFileUtils;..\..\..\Common\Units\XML</DCC_ResourcePath>
+    <DCC_ObjPath>..\..\Libraries\SharpAPI;..\..\Libraries\SharpThemeAPIEx;..\..\3rd party\GR32 Addons;..\..\3rd party\TransparentEdit;..\..\..\Common\Units\SharpGraphicsUtils;..\..\Libraries\SharpCenterAPI;..\..\..\Common\Units\SharpTypes;..\..\..\Common\Units\MonitorList;..\..\..\Common\Interfaces;..\..\..\Common\Units\SharpFileUtils;..\..\..\Common\Units\XML</DCC_ObjPath>
+    <DCC_IncludePath>..\..\Libraries\SharpAPI;..\..\Libraries\SharpThemeAPIEx;..\..\3rd party\GR32 Addons;..\..\3rd party\TransparentEdit;..\..\..\Common\Units\SharpGraphicsUtils;..\..\Libraries\SharpCenterAPI;..\..\..\Common\Units\SharpTypes;..\..\..\Common\Units\MonitorList;..\..\..\Common\Interfaces;..\..\..\Common\Units\SharpFileUtils;..\..\..\Common\Units\XML</DCC_IncludePath>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType>Package</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><Package_Options><Package_Options Name="ImplicitBuild">True</Package_Options><Package_Options Name="DesigntimeOnly">False</Package_Options><Package_Options Name="RuntimeOnly">False</Package_Options><Package_Options Name="PackageDescription">SharpE Skin Components</Package_Options></Package_Options><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1031</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">SharpESkinComponents.dpk</Source></Source></Delphi.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="SharpESkinComponents.dpk">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="..\..\3rd party\GR32 Addons\GR32_PNG.pas" />
+    <DCCReference Include="..\..\3rd party\TransparentEdit\TranComp.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\sharedBitmapList.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\SharpEAnimationTimers.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\SharpEBar.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\SharpEBase.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\SharpEBaseControls.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\SharpEBitmapList.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\SharpEButton.dcr" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\SharpEButton.dcr" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\SharpEButton.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\SharpECustomSkinSettings.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\SharpEDefault.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\SharpEDesignTime.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\SharpEEdit.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\SharpEListBox.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\SharpEMiniThrobber.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\SharpEProgressBar.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\SharpEScheme.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\SharpESkin.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\SharpESkinLabel.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\SharpESkinManager.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\SharpESkinPart.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\SharpETaskItem.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\ShlIntf.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\StrConst.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\StrTools.pas" />
+    <DCCReference Include="..\..\Delphi Components\SharpE Skin Components\SystemFontList.pas" />
+    <DCCReference Include="..\..\Interfaces\ISharpESkinComponents.pas" />
+    <DCCReference Include="..\..\Libraries\SharpAPI\SharpAPI.pas" />
+    <DCCReference Include="..\..\Libraries\SharpThemeApiEx\SharpThemeApiEx.pas" />
+    <DCCReference Include="..\..\Libraries\SharpThemeApiEx\uISharpETheme.pas" />
+    <DCCReference Include="..\..\Libraries\SharpThemeApiEx\uIThemeDesktop.pas" />
+    <DCCReference Include="..\..\Libraries\SharpThemeApiEx\uIThemeIcons.pas" />
+    <DCCReference Include="..\..\Libraries\SharpThemeApiEx\uIThemeInfo.pas" />
+    <DCCReference Include="..\..\Libraries\SharpThemeApiEx\uIThemeList.pas" />
+    <DCCReference Include="..\..\Libraries\SharpThemeApiEx\uIThemeScheme.pas" />
+    <DCCReference Include="..\..\Libraries\SharpThemeApiEx\uIThemeSkin.pas" />
+    <DCCReference Include="..\..\Libraries\SharpThemeApiEx\uIThemeWallpaper.pas" />
+    <DCCReference Include="..\..\Libraries\SharpThemeApiEx\uThemeConsts.pas" />
+    <DCCReference Include="..\..\Units\MonitorList\MonitorList.pas" />
+    <DCCReference Include="..\..\Units\SharpFileUtils\SharpSharedFileAccess.pas" />
+    <DCCReference Include="..\..\Units\SharpGraphicsUtils\SharpGraphicsUtils.pas" />
+    <DCCReference Include="..\..\Units\SharpTypes\SharpTypes.pas" />
+    <DCCReference Include="..\..\Units\XML\uSharpXMLUtils.pas" />
+    <DCCReference Include="designide.dcp" />
+    <DCCReference Include="GR32_RS2007.dcp" />
+    <DCCReference Include="Jcl.dcp" />
+    <DCCReference Include="JclVcl.dcp" />
+    <DCCReference Include="JvCoreD11R.dcp" />
+    <DCCReference Include="JvInterpreterD11R.dcp" />
+    <DCCReference Include="JvSystemD11R.dcp" />
+    <DCCReference Include="PNG_D9.dcp" />
+    <DCCReference Include="rtl.dcp" />
+    <DCCReference Include="vcl.dcp" />
+    <DCCReference Include="xmlrtl.dcp" />
+  </ItemGroup>
+</Project>
